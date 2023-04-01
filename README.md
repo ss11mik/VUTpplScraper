@@ -1,6 +1,6 @@
 # VUTpplScraper
 
-Tento repozitář obsauje 2 bash skripty, (scrape.sh) a (stats.sh), které umožňují získat seznam osob v systému [VUT v Brně](https://vut.cz) a vypočítat z něj statistiky.
+Tento repozitář obsauje 2 bash skripty, [scrape.sh](scrape.sh) a [stats.sh](stats.sh), které umožňují získat seznam osob v systému [VUT v Brně](https://vut.cz) a vypočítat z něj statistiky.
 
 
 ## API
@@ -35,7 +35,7 @@ Odpovědi na jednotlivé dotazy jsou uloženy do složky pojmenované aktuální
 Mezi jednotlivé požadavky je vložena mezera 0.5 sekundy, jejímž účelem je zamezit přetěžování serverů nebo síťové infrastruktury. Hodnota 0.5 sekundy je magická konstanta.
 
 ## stats.sh
-Skript `stats.sh` pracuje s výstupem předešlého skriptu, na jehož základě vypočítá personální statistiky pro jednotlivé faktuly, součásti a celé VUT. Ukázka výstupu se nachází v souboru (vut_230302_2155_stats.txt). Součet studentů, zaměstnanců a externistů fakulty nemusí odpovídat počtu osob dané fakulty, jelikož osoba může mít více vztahů s jednou nebo i více fakultami.
+Skript `stats.sh` pracuje s výstupem předešlého skriptu, na jehož základě vypočítá personální statistiky pro jednotlivé faktuly, součásti a celé VUT. Ukázka výstupu se nachází v souboru [vut_230302_2155_stats.txt](vut_230302_2155_stats.txt). Součet studentů, zaměstnanců a externistů fakulty nemusí odpovídat počtu osob dané fakulty, jelikož osoba může mít více vztahů s jednou nebo i více fakultami.
 
 Skript má jeden parametr, jméno souboru se seznamem osob. Statistiku vypisuje na standardní výstup.
 
