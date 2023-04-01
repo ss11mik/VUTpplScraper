@@ -5,7 +5,7 @@ Tento repozitář obsauje 2 bash skripty, [scrape.sh](scrape.sh) a [stats.sh](st
 
 ## API
 
-Systém Studis poskytuje API endpoint `https://www.vut.cz/intra/vut-zpravy?action=ajax&term=$query&ajax=0`, který slouží pro našeptávání příjemců pro VUT zprávy. Odpověď je ve formátu JSON a je limitována na 100 výsledků. Pro dotaz s méně než 3 znaky API vrací prázdný výsledek, což lze ale obejít přidáním několika znaků tečky (.), které jinak neovlivňují výsledek vyhledávání.
+Informační systém VUT poskytuje API endpoint `https://www.vut.cz/intra/vut-zpravy?action=ajax&term=$query&ajax=1`, který slouží pro našeptávání příjemců pro VUT zprávy. Odpověď je ve formátu JSON a je limitována na 100 výsledků. Pro dotaz s méně než 3 znaky API vrací prázdný výsledek, což lze ale obejít přidáním několika znaků tečky (.), které jinak neovlivňují výsledek vyhledávání.
 
 API navíc nerozlišuje vyhledávání ve jméně a příjmení, což přináší redundanci ve výsledcích. Ta je řešena pouze odstraněním duplikátních řádků na konci skriptu. API taktéž nerozlišuje diakritiku ani velikost písmen.
 
@@ -28,7 +28,7 @@ Výstup skriptu nezahrnuje specializaci studia osoby (jelikož se v odpovědích
 ## scrape.sh
 `scrape.sh` implementuje stažení (*scrape*) všech osob ve VUT systému a jejich rolí.  Jelikož použitý endpoint vrací fixně 100 záznamů (případně méně), skript provádí rekursívní zanořování do vyhledávaného řetězce, dokud API nevrátí méně než 100 záznamů. V takovém případě je jasné, že není potřeba se dále zanořovat. V opačném případě se provedou další dotazy na původní řetězec + \[a-z\] a případně rekursivně dále.
 
-Skript tedy například provede dotaz "a", na který dostane odpověď se 100 záznamy. Proto následně provede dotazy na "aa", "ab",..., "az" a pro odpovědi se 100 výsledky se takto dále zanořuje.
+Skript tedy například provede dotaz "a" (respektive "a..", viz výše), na který dostane odpověď se 100 záznamy. Proto následně provede dotazy na "aa", "ab",..., "az" a pro odpovědi se 100 výsledky se takto dále zanořuje.
 
 Odpovědi na jednotlivé dotazy jsou uloženy do složky pojmenované aktuálním datem a časem. Po skončení prohledávání jsou odstraněny duplicity, sežazený seznam je uložen do textového souboru `vut_datum_cas.txt` a na standardní výstup je vypsána statistika doby běhu, počtu requestů atd.
 
@@ -41,6 +41,6 @@ Skript má jeden parametr, jméno souboru se seznamem osob. Statistiku vypisuje 
 
 
 ## Použití
-Pro použití je nutné mít přístup do VUT systému. skript vyžaduje validní cookies s přihlášením k www.vut.cz v souboru `cookies.txt`. Lze je exportovat např. pomocí [cookies.txt addonu](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/) pro Firefox.
+Pro použití je nutné mít přístup do VUT systému. Skript vyžaduje validní cookies s přihlášením k www.vut.cz v souboru `cookies.txt`. Lze je exportovat např. pomocí [cookies.txt addonu](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/) pro Firefox.
 
 Běh scrape.sh orientačně trvá při současné situaci (březen 2023) přibližně 1 hodinu, během které je provedeno kolem 12 000 requestů, z toho přibližně 8 000 vrátí prázdný seznam.
