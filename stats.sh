@@ -90,7 +90,8 @@ stats () {
 
     echo ""
 
-    faculty KAMB
+    faculty KAMB # Koleje a menzy
+    faculty RE # rektorat
 
     echo ""
 

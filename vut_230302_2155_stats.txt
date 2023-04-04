@@ -1,99 +1,99 @@
 
 FIT:
- celkem: 3361
- studenti: 2688
- studentky: 209 (7.77 %)
- studenti s Bc.: 488
- studentky s Bc.: 41 (8.40 %)
- zaměstnanci: 305
- zaměstnankyně: 79 (25.90 %)
- profesoři: 11
- studenti/zaměstnanci: 8.81
- externisté: 452
+ celkem: 3352
+ studenti: 2675
+ studentky: 205 (7.66 %)
+ studenti s Bc.: 486
+ studentky s Bc.: 40 (8.23 %)
+ zaměstnanci: 297
+ zaměstnankyně: 77 (25.92 %)
+ profesoři: 10
+ studenti/zaměstnanci: 9.00
+ externisté: 460
 
 FEKT:
- celkem: 4710
- studenti: 3083
- studentky: 297 (9.63 %)
- studenti s Bc.: 727
- studentky s Bc.: 95 (13.06 %)
- zaměstnanci: 559
- zaměstnankyně: 123 (22.00 %)
- profesoři: 40
- studenti/zaměstnanci: 5.51
- externisté: 1192
+ celkem: 4695
+ studenti: 3067
+ studentky: 295 (9.61 %)
+ studenti s Bc.: 723
+ studentky s Bc.: 95 (13.13 %)
+ zaměstnanci: 562
+ zaměstnankyně: 125 (22.24 %)
+ profesoři: 41
+ studenti/zaměstnanci: 5.45
+ externisté: 1191
 
 FSI:
- celkem: 5046
- studenti: 3634
- studentky: 343 (9.43 %)
- studenti s Bc.: 1006
- studentky s Bc.: 121 (12.02 %)
- zaměstnanci: 746
- zaměstnankyně: 175 (23.45 %)
+ celkem: 4951
+ studenti: 3539
+ studentky: 341 (9.63 %)
+ studenti s Bc.: 1002
+ studentky s Bc.: 121 (12.07 %)
+ zaměstnanci: 744
+ zaměstnankyně: 173 (23.25 %)
  profesoři: 58
- studenti/zaměstnanci: 4.87
+ studenti/zaměstnanci: 4.75
  externisté: 785
 
 FCH:
- celkem: 1387
- studenti: 1099
- studentky: 601 (54.68 %)
+ celkem: 1384
+ studenti: 1092
+ studentky: 597 (54.67 %)
  studenti s Bc.: 273
  studentky s Bc.: 180 (65.93 %)
- zaměstnanci: 215
- zaměstnankyně: 115 (53.48 %)
+ zaměstnanci: 217
+ zaměstnankyně: 116 (53.45 %)
  profesoři: 18
- studenti/zaměstnanci: 5.11
+ studenti/zaměstnanci: 5.03
  externisté: 121
 
 FA:
- celkem: 681
- studenti: 570
- studentky: 301 (52.80 %)
+ celkem: 683
+ studenti: 567
+ studentky: 299 (52.73 %)
  studenti s Bc.: 120
  studentky s Bc.: 73 (60.83 %)
- zaměstnanci: 89
- zaměstnankyně: 37 (41.57 %)
+ zaměstnanci: 94
+ zaměstnankyně: 42 (44.68 %)
  profesoři: 6
- studenti/zaměstnanci: 6.40
+ studenti/zaměstnanci: 6.03
  externisté: 29
 
 FAST:
- celkem: 4181
- studenti: 3209
- studentky: 1118 (34.83 %)
+ celkem: 4157
+ studenti: 3193
+ studentky: 1113 (34.85 %)
  studenti s Bc.: 535
  studentky s Bc.: 218 (40.74 %)
- zaměstnanci: 620
- zaměstnankyně: 223 (35.96 %)
+ zaměstnanci: 622
+ zaměstnankyně: 225 (36.17 %)
  profesoři: 43
- studenti/zaměstnanci: 5.17
- externisté: 427
+ studenti/zaměstnanci: 5.13
+ externisté: 417
 
 FaVU:
- celkem: 461
- studenti: 367
- studentky: 189 (51.49 %)
+ celkem: 457
+ studenti: 363
+ studentky: 187 (51.51 %)
  studenti s Bc.: 15
  studentky s Bc.: 8 (53.33 %)
- zaměstnanci: 89
- zaměstnankyně: 34 (38.20 %)
+ zaměstnanci: 88
+ zaměstnankyně: 34 (38.63 %)
  profesoři: 4
  studenti/zaměstnanci: 4.12
  externisté: 14
 
 FP:
- celkem: 2610
- studenti: 2361
- studentky: 912 (38.62 %)
- studenti s Bc.: 747
- studentky s Bc.: 338 (45.24 %)
- zaměstnanci: 136
- zaměstnankyně: 66 (48.52 %)
+ celkem: 2553
+ studenti: 2320
+ studentky: 911 (39.26 %)
+ studenti s Bc.: 745
+ studentky s Bc.: 338 (45.36 %)
+ zaměstnanci: 135
+ zaměstnankyně: 64 (47.40 %)
  profesoři: 14
- studenti/zaměstnanci: 17.36
- externisté: 127
+ studenti/zaměstnanci: 17.18
+ externisté: 109
 
 
 CESA:
@@ -109,58 +109,67 @@ CESA:
  externisté: 31
 
 ÚSI:
- celkem: 509
- studenti: 441
- studentky: 121 (27.43 %)
+ celkem: 503
+ studenti: 433
+ studentky: 117 (27.02 %)
  studenti s Bc.: 109
  studentky s Bc.: 42 (38.53 %)
  zaměstnanci: 40
  zaměstnankyně: 17 (42.50 %)
  profesoři: 2
- studenti/zaměstnanci: 11.02
- externisté: 39
+ studenti/zaměstnanci: 10.82
+ externisté: 40
 
 ICV:
- celkem: 314
+ celkem: 315
  studenti: 290
  studentky: 145 (50.00 %)
  studenti s Bc.: 0
- zaměstnanci: 24
- zaměstnankyně: 19 (79.16 %)
+ zaměstnanci: 25
+ zaměstnankyně: 20 (80.00 %)
  profesoři: 0
- studenti/zaměstnanci: 12.08
+ studenti/zaměstnanci: 11.60
  externisté: 0
 
 CEITEC:
- celkem: 670
- studenti: 158
- studentky: 35 (22.15 %)
+ celkem: 666
+ studenti: 154
+ studentky: 34 (22.07 %)
  studenti s Bc.: 0
  zaměstnanci: 411
- zaměstnankyně: 116 (28.22 %)
+ zaměstnankyně: 114 (27.73 %)
  profesoři: 22
- studenti/zaměstnanci: .38
- externisté: 162
+ studenti/zaměstnanci: .37
+ externisté: 163
 
 
 KAMB:
- celkem: 196
+ celkem: 195
  studenti: 0
- zaměstnanci: 191
- zaměstnankyně: 142 (74.34 %)
+ zaměstnanci: 190
+ zaměstnankyně: 141 (74.21 %)
  profesoři: 0
  studenti/zaměstnanci: 0
  externisté: 5
 
+RE:
+ celkem: 254
+ studenti: 0
+ zaměstnanci: 242
+ zaměstnankyně: 167 (69.00 %)
+ profesoři: 2
+ studenti/zaměstnanci: 0
+ externisté: 12
+
 Celé VUT:
- celkem: 31987
- studenti: 17947
- studentky: 4311 (24.02 %)
- studenti s Bc.: 4008
- studentky s Bc.: 1113 (27.76 %)
- zaměstnanci: 3659
- zaměstnankyně: 1338 (36.56 %)
+ celkem: 31788
+ studenti: 17743
+ studentky: 4284 (24.14 %)
+ studenti s Bc.: 3996
+ studentky s Bc.: 1112 (27.82 %)
+ zaměstnanci: 3660
+ zaměstnankyně: 1341 (36.63 %)
  profesoři: 197
- studenti/zaměstnanci: 4.90
- externisté: 10204
- bez role: 836
+ studenti/zaměstnanci: 4.84
+ externisté: 10189
+ bez role: 846
